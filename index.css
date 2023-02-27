@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,700;1,700&family=Roboto:wght@400;500&display=swap');
+
+body {
+  display: flex;
+  width: 210mm;
+}
+
+.sidebar {
+  background-color: #cde2ed;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+  width: 30%;
+}
+
+.sidebar img {
+  border-radius: 30px;
+  height: 185px;
+  width: 151px;
+}
+
+h1 {
+  color: #d14821;
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  margin: 0;
+}
+
+.sidebar-subcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.sidebar-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-element p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.visible {
+  /* display: block; */
+  opacity: 1;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 1rem;
+}
+
+.experience-title,
+.formation-title,
+.languages-title {
+  cursor: pointer;
+  font-family: 'Philosopher';
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 26px;
+  border-bottom: 3px solid #fe764f;
+  width: 333px;
+  padding: 0 10px;
+  margin: 10px;
+}
+
+h3 {
+  margin: 10px 0;
+}
+/* .experience-title h3 {
+  margin: 10px 0;
+} */
+
+.main-item {
+  display: flex;
+  flex-direction: column;
+  width: 333px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 0 20px;
+}
+
+.main-item h4 {
+  font-weight: 600;
+  margin: 0;
+  padding: 5px 0;
+}
+
+.main-item p {
+  margin: 0;
+  padding: 5px 0;
+}
