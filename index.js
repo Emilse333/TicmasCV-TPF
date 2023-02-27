@@ -19,4 +19,4 @@ function clickHandler(element) {
 
 experienceTitle.addEventListener('click', () => clickHandler(experience));
 formationTitle.addEventListener('click', () => clickHandler(formation));
-languagesTitle.addEventListener('click', () => clickHandler(languages-title));
+languagesTitle.addEventListener('click', () => clickHandler(languages));
