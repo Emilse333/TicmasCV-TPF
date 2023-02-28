@@ -1,3 +1,18 @@
+Copy code// Crea un nuevo elemento de imagen 
+var img = document.createElement('img'); 
+ 
+// Establece la ubicación de la imagen 
+img.src = 'ruta/a/mi/imagen.jpg'; 
+ 
+// Agrega la imagen al documento 
+document.body.appendChild(img); 
+
+
+
+
+
+
+
 const experience = document.querySelector('.experience');
 const experienceTitle = document.querySelector('.experience-title');
 
