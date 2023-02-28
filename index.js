@@ -1,7 +1,7 @@
 
 var img = document.createElement('img'); 
 
-var img src="data/img/placeholder.png" data-src="https://static.wikia.nocookie.net/lossimpson/images/8/82/John.png/revision/latest?cb=20090901202749&path-prefix=es" 
+var img src= "https://static.wikia.nocookie.net/lossimpson/images/8/82/John.png/revision/latest?cb=20090901202749&path-prefix=es" 
 alt="Foto de perfil";
 
 
