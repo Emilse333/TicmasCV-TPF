@@ -3,9 +3,6 @@ var img = document.createElement('img');
  
 // Establece la ubicación de la imagen 
 img.src = 'https://static.wikia.nocookie.net/lossimpson/images/8/82/John.png/revision/latest?cb=20090901202749&path-prefix=es'; 
- 
-// Agrega la imagen al documento 
-document.body.appendChild(img); 
 
 
 const experience = document.querySelector('.experience');
