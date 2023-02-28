@@ -1,7 +1,8 @@
 
 var img = document.createElement('img'); 
 
-var img = document.querySelector("img src").innerHTML=("https://static.wikia.nocookie.net/lossimpson/images/8/82/John.png/revision/latest?cb=20090901202749&path-prefix=es"); />';
+<img src="data/img/placeholder.png" data-src="https://static.wikia.nocookie.net/lossimpson/images/8/82/John.png/revision/latest?cb=20090901202749&path-prefix=es" 
+alt="Foto de perfil"/>';
 
 
 const experience = document.querySelector('.experience');
